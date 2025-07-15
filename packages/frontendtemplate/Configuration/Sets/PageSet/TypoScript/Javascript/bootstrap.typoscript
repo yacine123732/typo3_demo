@@ -1,0 +1,3 @@
+page.includeJS {
+    bootstrap = EXT:frontendtemplate/Resources/Public/JavaScript/bootstrap.min.js
+}

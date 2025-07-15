@@ -1,0 +1,4 @@
+@import './TypoScript/*.typoscript'
+@import './TypoScript/Css/*.typoscript'
+@import './TypoScript/Javascript/*.typoscript'
+@import './TypoScript/ContentElement/*.typoscript'

@@ -1,0 +1,3 @@
+page.includeCSS {
+    bootstrap = EXT:frontendtemplate/Resources/Public/Css/bootstrap.min.css
+}

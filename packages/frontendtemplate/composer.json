@@ -1,0 +1,37 @@
+{
+    "name": "yac-dev/frontendtemplate",
+    "description": "TYPO3 frontend template extension",
+    "type": "typo3-cms-extension",
+    "authors": [
+        {
+            "name": "Yassine Guernaoui",
+            "email": "yassine.guernaoui@yac-dev.com",
+            "homepage": "https://www.yac-dev.com",
+            "role": "maintainer"
+        }
+    ],
+    "homepage": "https://github.com/yac-dev/frontendtemplate",
+    "support": {
+        "issues": "https://github.com/yac-dev/frontendtemplate/issues",
+        "source": "https://github.com/yac-dev/frontendtemplate",
+        "docs": "https://docs.typo3.org/p/ttn/tea/main/en-us/"
+    },
+    "require": {
+        "php": "~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0",
+        "typo3/cms-core": "^13.4",
+        "typo3/cms-extbase": "^13.4",
+        "typo3/cms-fluid": "^13.4",
+        "typo3/cms-frontend": "^13.4"
+    },
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "YacDev\\FrontendTemplate\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "frontendtemplate"
+        }
+    }
+}

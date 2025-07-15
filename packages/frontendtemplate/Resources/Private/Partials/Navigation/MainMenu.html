@@ -1,0 +1,20 @@
+<nav class="bg-light py-3">
+    <div class="container">
+        <ul class="nav justify-content-center">
+        <f:for each="{menu}" as="item">
+            <li class="nav-item mx-2">
+            <a
+                class="nav-link px-3 py-2 rounded {f:if(condition: item.current, then: 'active bg-primary text-white')} {f:if(condition: item.active, then: 'fw-bold')}"
+                href="{item.link}"
+                {f:if(condition: item.target, then: 'target="{item.target}"')}
+                {f:if(condition: item.current, then: 'aria-current="page"')}
+            >
+                {item.title}
+            </a>
+            </li>
+        </f:for>
+        </ul>
+    </div>
+</nav>
+  
+  

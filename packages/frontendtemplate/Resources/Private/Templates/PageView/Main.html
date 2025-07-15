@@ -1,0 +1,24 @@
+<f:layout name="Default" />
+<f:section name="Main">
+    <header>
+        <f:render partial="Navigation/MainMenu" arguments="{menu: mainMenu}" />
+    </header>
+    <main role="main" class="container">
+        <f:for each="{content.header.records}" as="record">
+            <f:cObject
+                typoscriptObjectPath="{record.mainType}"
+                data="{record.rawRecord}"
+                table="{record.mainType}"
+            />
+        </f:for>
+        <f:debug>{_all}</f:debug>
+        <f:for each="{content.main.records}" as="record">
+            <f:cObject
+                typoscriptObjectPath="{record.mainType}"
+                data="{record.rawRecord}"
+                table="{record.mainType}"
+            />
+        </f:for>
+    </main>
+    <footer></footer>
+</f:section>

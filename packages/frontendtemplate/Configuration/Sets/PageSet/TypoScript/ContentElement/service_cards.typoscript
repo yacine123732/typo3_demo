@@ -1,0 +1,9 @@
+# Service Cards:
+# ...
+#
+# CType: service_cards
+
+tt_content.service_card =< lib.contentElement
+tt_content.service_card {
+    templateName = ServiceCard
+}

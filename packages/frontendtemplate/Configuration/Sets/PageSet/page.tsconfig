@@ -1,0 +1,38 @@
+mod {
+  web_layout {
+    BackendLayouts {
+      frontendtemplate {
+        title = Frontend Template
+        config {
+          backend_layout {
+            colCount = 1
+            rowCount = 2
+            rows {
+              1 {
+                columns {
+                  1 {
+                    identifier = header
+                    name = LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:colPos.I.3
+                    colPos = 3
+                    colspan = 1
+                  }
+                }
+              }
+              2 {
+                columns {
+                  1 {
+                    identifier = main
+                    name = Main
+                    colPos = 0
+                    colspan = 1
+                  }
+                }
+              }
+            }
+          }
+        }
+        #icon = EXT:example_extension/Resources/Public/Images/BackendLayouts/default.gif
+      }
+    }
+  }
+}

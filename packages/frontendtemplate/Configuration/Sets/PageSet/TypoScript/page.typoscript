@@ -1,0 +1,36 @@
+config {
+  contentObjectExceptionHandler = 0
+}
+
+page = PAGE
+page.10 = FLUIDTEMPLATE
+page.10 {
+  file.stdWrap.cObject = CASE
+  file.stdWrap.cObject {
+	key.data = pagelayout
+
+	default = TEXT
+	default.value = EXT:frontendtemplate/Resources/Private/Templates/PageView/Main.html
+
+	pagets__frontendtemplate = TEXT
+	pagets__frontendtemplate.value = EXT:frontendtemplate/Resources/Private/Templates/PageView/Main.html
+
+  }
+  layoutRootPaths {
+    10 = EXT:frontendtemplate/Resources/Private/Layouts/
+  }
+
+  partialRootPaths {
+    10 = EXT:frontendtemplate/Resources/Private/Partials/
+  }
+
+  templateRootPaths {
+    10 = EXT:frontendtemplate/Resources/Private/Templates/
+  }
+  dataProcessing {
+    10 = page-content
+    10.as = content
+    20 = menu
+    20.as = mainMenu
+  }
+}
