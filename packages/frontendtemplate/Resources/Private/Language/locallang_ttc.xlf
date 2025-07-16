@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="en" datatype="plaintext" original="EXT:frontendtemplate/Resources/Private/Language/locallang_ttc.xlf" date="2025-07-16T18:20:51Z" product-name="frontendtemplate">
+        <header/>
+        <body>
+            <trans-unit id="service_card" approved="yes">
+                <source>Service Card</source>
+                <target>Service Card</target>
+            </trans-unit>
+            <trans-unit id="service_card_description" approved="yes">
+                <source>Service Card to show a service</source>
+                <target>Service Card to show a service</target>
+            </trans-unit>
+            <trans-unit id="project_showcase" approved="yes">
+                <source>Project Showcase</source>
+                <target>Project Showcase</target>
+            </trans-unit>
+            <trans-unit id="project_showcase_description" approved="yes">
+                <source>Project Showcase to show a project</source>
+                <target>Project Showcase to show a project</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

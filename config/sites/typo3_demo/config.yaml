@@ -11,5 +11,6 @@ languages:
     flag: us
 dependencies:
   - yac-dev/frontendset
+  - typo3/form
 rootPageId: 1
 routes: {  }

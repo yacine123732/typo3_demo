@@ -11,6 +11,11 @@ return [
     'DB' => [
         'Connections' => [
             'Default' => [
+                'host' => 'db',
+                'port' => 3306,
+                'user' => 'db',
+                'password' => 'db',
+                'dbname' => 'db',
                 'charset' => 'utf8',
                 'driver' => 'mysqli',
             ],
@@ -92,6 +97,7 @@ return [
                 ],
             ],
         ],
+        'trustedHostsPattern' => 'typo3-project.ddev.site',
         'devIPmask' => '*',
         'displayErrors' => 1,
         'encryptionKey' => '14ae038de3c8a8ea56d7a8a30271bcafff17205d5afa912bdbe6a34b99597c4b96bf69b2aeff77653251a6d2db21c407',

@@ -1,0 +1,19 @@
+<div class="container py-4">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="card shadow-sm">
+            <div class="ce-image ce-{gallery.position.horizontal} ce-{gallery.position.vertical}">
+                <f:render partial="Media/Gallery" arguments="{_all}" />
+            </div>
+          <div class="card-body">
+            <h5 class="card-title">{data.header}</h5>
+            <p class="card-text">{data.bodytext -> f:format.html()}</p>
+            <f:if condition="{data.header_link}">
+              <a href="{data.header_link}" class="btn btn-primary" target="_blank">View Project</a>
+            </f:if>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  
